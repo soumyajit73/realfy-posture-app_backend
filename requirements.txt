@@ -3,3 +3,4 @@ uvicorn[standard]>=0.22
 opencv-python>=4.8
 mediapipe>=0.10
 numpy>=1.24
+gunicorn>=21.2
