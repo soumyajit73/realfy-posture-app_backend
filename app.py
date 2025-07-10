@@ -16,6 +16,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+@app.get("/")
+def home():
+    return {"message": "Backend is up and running!"}
 
 @app.post("/upload-video/")
 async def upload_video(file: UploadFile = File(...)):
