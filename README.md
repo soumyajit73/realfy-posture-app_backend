@@ -53,8 +53,9 @@ https://realfy-posture-app-backend.onrender.com/
 
 ## ⚠️ Notes
 
-- The backend used by the frontend is hosted on **Render’s free tier**, which may go to sleep when idle. This can cause **20–30 seconds delay** on the first request while the server wakes up.
-- You might sometimes see a **502 Bad Gateway** error if the backend is waking up or under load. Wait a few seconds and refresh, or try again.
+- The backend is hosted on **Render’s free tier**, which may go to sleep when idle. This can cause **20–30 seconds delay** on the first request while the server wakes up.
+- You might sometimes see a **502 Bad Gateway** error if the server is waking up or under load. Wait a few seconds and refresh, or try again.
+- For the smoothest experience, you can **run the backend locally** using the instructions above.
   
 ---
 
